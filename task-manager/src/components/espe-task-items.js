@@ -121,6 +121,18 @@ class TaskItem extends LitElement {
                 --text-secondary: #6b7280;
                 --accent-bg: #e5e7eb;
             }
+            
+            .task-item.completed {
+                opacity: 0.7;
+            }
+            
+            .task-item.completed .task-name {
+                text-decoration: line-through;
+            }
+            
+            .task-item.completed .task-icon {
+                color: #019863;
+            }
         `;
     }
 
@@ -164,7 +176,7 @@ class TaskItem extends LitElement {
         if (!this.task.id) return html``;
 
         return html`
-            <div class="task-item" @click="${this._onTaskClick}">
+            <div class="task-item ${this.task.completed ? 'completed' : ''}" @click="${this._onTaskClick}">
                 <div class="priority-indicator priority-${this.task.priority}"></div>
                 <div class="task-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
