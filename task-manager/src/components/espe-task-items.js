@@ -35,7 +35,6 @@ class TaskItem extends LitElement {
                 background-color: var(--accent-bg, #214a3c);
                 width: 48px;
                 height: 48px;
-                flex-shrink: 0;
             }
 
             .task-content {
@@ -66,6 +65,7 @@ class TaskItem extends LitElement {
                 gap: 0.5rem;
                 opacity: 0;
                 transition: opacity 0.2s;
+                margin-right: 0.75rem;
             }
 
             .task-item:hover .task-actions {

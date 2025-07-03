@@ -29,7 +29,7 @@ class TaskList extends LitElement {
                 color: var(--text-primary, white);
                 font-size: 1.125rem;
                 font-weight: 700;
-                margin: 0 0 0.5rem 0;
+                margin: 0 0 0.5rem 0.75rem;
                 padding: 1rem 0 0.5rem 0;
                 border-bottom: 1px solid var(--border-color, #214a3c);
             }
