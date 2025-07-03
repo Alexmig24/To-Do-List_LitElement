@@ -13,8 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Alexmig24/To-Do-List_LitElement/issues"
   },
