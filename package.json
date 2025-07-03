@@ -1,0 +1,33 @@
+{
+  "name": "to-do-list_litelement",
+  "version": "1.0.0",
+  "description": "Aplicación funcional que permita gestionar tareas con funcionalidades como  creación, edición, eliminación con LitElement.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexmig24/To-Do-List_LitElement.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Alexmig24/To-Do-List_LitElement/issues"
+  },
+  "homepage": "https://github.com/Alexmig24/To-Do-List_LitElement#readme",
+  "dependencies": {
+    "lit-element": "^4.2.0"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
