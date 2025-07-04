@@ -46,3 +46,9 @@ npx live-server
 index.html
 README.md
 ```
+---
+## Tecnologías Utilizadas
+
+- LitElement (Web Components)
+- HTML5 / CSS3/ JS
+- Eventos personalizados (`CustomEvent`)
