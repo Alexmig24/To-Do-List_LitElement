@@ -170,17 +170,6 @@ class TaskList extends LitElement {
         }
     }
 
-    // _groupTasks() {
-    //     this._groupedTasks = this.tasks.reduce((acc, task) => {
-    //         const date = task.date || 'hoy';
-    //         if (!acc[date]) {
-    //             acc[date] = [];
-    //         }
-    //         acc[date].push(task);
-    //         return acc;
-    //     }, {});
-    // }
-
     _groupTasks() {
         if (this.view === 'prioridad') {
             this._groupedTasks = this.tasks.reduce((acc, task) => {
